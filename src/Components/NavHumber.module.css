@@ -1,0 +1,41 @@
+.burgerMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+}
+.burgerMenu h5 {
+  color: #111b47;
+  font-weight: 600;
+}
+.burgerMenu .hamberIcon {
+  color: #111b47;
+  font-size: 25px;
+  cursor: pointer;
+}
+.navLink {
+  padding: 10px;
+  width: 40vw;
+}
+.navLink h5 {
+  color: #111b47;
+  border-bottom: 1px solid #111b47;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+.navLink ul li {
+  margin-top: 25px;
+  transition: 0.3s ease-in-out;
+}
+.navLink ul li:hover {
+  margin-left: 10px;
+}
+.navLink ul li a {
+  color: #111b47;
+}
+@media (min-width: 600px) {
+  .burgerMenu {
+    display: none;
+  }
+}

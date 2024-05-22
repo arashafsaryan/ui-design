@@ -1,0 +1,28 @@
+.nav .navItem {
+  display: none;
+  margin-top: 5px;
+}
+.nav .navItem .navLink a {
+  color: #505f98;
+  padding-right: 50px;
+  font-size: 14px;
+}
+.nav .navItem h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #37447e;
+}
+.nav .navItem .navBtn {
+  padding: 5px 40px;
+  background-color: #111b47;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 3px;
+}
+@media (min-width: 600px) {
+  .nav .navItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

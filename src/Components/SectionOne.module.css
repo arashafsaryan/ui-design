@@ -1,0 +1,43 @@
+.container .titleMain {
+  color: #111b47;
+  font-weight: 600;
+}
+.container .textMain {
+  color: #6f7cb2;
+  line-height: 30px;
+  font-size: 14px;
+}
+.secBottom .secItem svg {
+  font-size: 30px;
+  color: #282828;
+}
+.secBottom .secItem h6 {
+  color: #091133;
+  font-size: 16px;
+  font-weight: 600;
+}
+.secBottom .secItem p {
+  color: #6f7cb2;
+  line-height: 20px;
+  font-size: 13px;
+}
+.container .image img {
+  width: 100%;
+}
+
+@media (min-width: 500px) {
+  .container .image {
+    display: flex;
+    justify-content: center;
+  }
+  .container .image img {
+    width: 450px;
+  }
+}
+@media (min-width: 900px) {
+  .container .image img {
+    display: block;
+    width: 400px;
+    float: right;
+  }
+}

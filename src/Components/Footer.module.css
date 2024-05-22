@@ -1,0 +1,65 @@
+.footer {
+  background-color: #d5dfff;
+  min-height: 100px;
+  padding: 25px 0;
+}
+.container .rowOne {
+  display: flex;
+  justify-content: space-between;
+}
+.container .rowOne p {
+  color: #939ea4;
+}
+.container .rowOne h5 {
+  color: #37447e;
+  font-weight: 700;
+}
+.container .rowOne a {
+  background-color: #111b47;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.container .rowTwo {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #939ea4;
+  padding: 15px 0;
+}
+.container .rowTwo .links {
+  width: 50%;
+  display: flex;
+}
+.container .rowTwo .links a {
+  margin-right: 30px;
+  color: #929ecc;
+  font-size: 14px;
+}
+.container .rowTwo .socialNetwork {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.container .rowTwo .socialNetwork svg {
+  margin-left: 30px;
+  color: #111b47;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .container .rowOne a {
+    display: none;
+  }
+  .container .rowTwo {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .rowTwo .socialNetwork {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
+  .container .rowTwo .socialNetwork svg {
+    margin: 30px 15px 0px 0;
+  }
+}

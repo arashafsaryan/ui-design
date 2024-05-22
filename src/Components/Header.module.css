@@ -1,0 +1,46 @@
+.container {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.container .info h5 {
+  color: #111b47;
+  font-weight: 700;
+}
+.container .info p {
+  color: #505f98;
+  font-size: 16px;
+  line-height: 30px;
+}
+.container .info .btnOne {
+  background-color: #111b47;
+  padding: 5px 25px;
+  margin: 0 30px 10px 0;
+  font-size: 11px;
+}
+.container .info .btnTwo {
+  padding: 5px 25px;
+  border: 1px solid #111b47;
+  color: #111b47;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+.container .image img {
+  width: 100%;
+}
+@media (min-width: 600px) {
+  .container .image {
+    display: flex;
+    justify-content: center;
+  }
+  .container .image img {
+    width: 70%;
+  }
+}
+@media (min-width: 900px) {
+  .container .image img {
+    float: right;
+    display: block;
+    width: 100%;
+  }
+}
